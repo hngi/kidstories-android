@@ -119,7 +119,7 @@ t.toString();
 
         long idRow = db.insert(FavoriteContract.FavoriteColumn.TABLE_NAME, null, value);
         Log.v("IdRow", "Id Count" + idRow);
-        Toast.makeText(this, "Successfully Added to Cart", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Successfully Saved to Bookmark", Toast.LENGTH_SHORT).show();
 
     }
 

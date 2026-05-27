@@ -47,6 +47,14 @@
                 android:textColor="@android:color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/bookmark_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="88dp"
+                android:background="@color/colorWhite"
+                android:src="@drawable/ic_bookmark_border_primary" />
         </RelativeLayout>
 
         <android.support.constraint.ConstraintLayout
@@ -85,6 +93,7 @@
                 android:textColor="#90000000"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toStartOf="@+id/like_button"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/author_image"
                 app:layout_constraintTop_toBottomOf="@+id/story_title" />
 
@@ -97,6 +106,8 @@
                 android:background="@color/colorWhite"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:srcCompat="@drawable/thumbs_down_hand_symbol" />
+
+
 
             <ImageButton
                 android:id="@+id/like_button"
